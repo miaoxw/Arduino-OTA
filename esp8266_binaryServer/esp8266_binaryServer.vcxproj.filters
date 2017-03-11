@@ -17,5 +17,9 @@
   <ItemGroup>
     <None Include="esp8266_binaryServer.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.esp8266_binaryServer.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
